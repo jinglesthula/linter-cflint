@@ -2,6 +2,13 @@
   "extends": "airbnb-base",
   "parser": "babel-eslint",
   "rules": {
-    "no-console": 0
+    "no-console": 0,
+    "no-extra-semi": "error",
+    "no-underscore-dangle": ["error", { "allowAfterThis": true }],
+    "semi": [
+      "error",
+      "never",
+      { "beforeStatementContinuationChars": "always" }
+    ]
   }
 }

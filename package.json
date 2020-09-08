@@ -1,10 +1,10 @@
 {
-  "name": "linter-cflint",
+  "name": "linter-cflint-dce",
   "main": "./lib/main",
   "activationCommands": [],
   "version": "0.15.0",
   "description": "Linter plugin for ColdFusion, using CFLint",
-  "repository": "https://github.com/ditinc/linter-cflint.git",
+  "repository": "https://github.com/jinglesthula/linter-cflint.git",
   "license": "MIT",
   "engines": {
     "atom": ">1.8.0"
@@ -33,5 +33,6 @@
     "eslint": "3.18.0",
     "eslint-config-airbnb-base": "11.1.1",
     "eslint-plugin-import": "2.2.0"
-  }
+  },
+  "author": "Jon Anderson <jonathan.anderson@byu.edu>"
 }
